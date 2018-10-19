@@ -1,0 +1,35 @@
+$button-color: gray;
+
+.Navigation {
+  background: black;
+  height: 50px;
+  padding: 20px;
+  text-align: center;
+  color: blueviolet;
+}
+
+.Navigation-link {
+  background-color: $button-color;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+
+  &:active {
+    background-color: green
+  }
+
+  &:visited {
+    background-color: darkgray;
+  }
+  
+  &:hover {
+    background-color: greenyellow;
+  }
+}
