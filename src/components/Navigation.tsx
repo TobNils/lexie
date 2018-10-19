@@ -7,8 +7,7 @@ class Navigation extends React.Component {
         return (
             <div className="Navigation">
                 <NavLink className="Navigation-link" to={'/'}>Home</NavLink>
-                {/*<NavLink className="Navigation-link" to={'/axios'}>Axios-test</NavLink>*/}
-                <NavLink className="Navigation-link" to={'/video'}>Video</NavLink>
+                <NavLink className="Navigation-link" to={'/axios'}>Axios-test</NavLink>
             </div>
         );
     }

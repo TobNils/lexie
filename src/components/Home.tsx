@@ -5,7 +5,7 @@ class Home extends React.Component {
     public render() {
         return (
             <div className="Home-title">
-                <h1>Welcome to the home of the awesome WebRTC viewport app</h1>
+                <h1>Home</h1>
             </div>
         );
     }
